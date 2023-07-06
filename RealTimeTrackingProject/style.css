@@ -10,3 +10,7 @@
   left: 10px;
   z-index: 1;
 }
+
+.mapboxgl-canvas {
+  filter: invert(100%);
+}
