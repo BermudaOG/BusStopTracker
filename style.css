@@ -1,0 +1,16 @@
+#map {
+  position: relative;
+  background-color: #000;
+  height: 100vh;
+}
+
+.map-overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+.mapboxgl-canvas {
+  filter: invert(100%);
+}
